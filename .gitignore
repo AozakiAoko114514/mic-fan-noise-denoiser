@@ -1,0 +1,35 @@
+# ---- local dependencies (installed per-machine, never committed) ----
+lib/
+wheels/
+tmp/
+
+# ---- machine-specific state ----
+denoise/config.json
+config.json
+*.pid
+vm_state_before.json
+vm_setup_log.txt
+
+# ---- recordings / generated audio ----
+*.wav
+*.flac
+*.mp3
+denoise/samples/*
+!denoise/samples/.gitkeep
+
+# ---- logs ----
+*.log
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# ---- editors / os ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

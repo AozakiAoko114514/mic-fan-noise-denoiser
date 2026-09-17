@@ -1,0 +1,12 @@
+{
+  "devices": {
+    "input": null,
+    "output": null
+  },
+  "voicemeeter": {
+    "bus": null,
+    "bus_index": null,
+    "capture_device": null,
+    "capture_device_name": null
+  }
+}
